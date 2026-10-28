@@ -1,0 +1,44 @@
+## .gitignore for ASP.NET Core / K Coffee Project
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+**/[Pp]ackages/
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# Rider
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ASP.NET Core
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+
+# Logs
+*.log
+logs/
+
+# Publish output
+publish/
+
+# Local ASP.NET Core solution (kept local, repo is deployed as static website)
+CoffeeWeb/
+*.slnx
+
